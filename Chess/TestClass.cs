@@ -9,7 +9,7 @@ namespace Chess
         [Test]
         public void RookShouldBeCorrectMove()
         {
-            ChessFigure figure = new Rook("E2");
+            Rook figure = new Rook("E2");
             Assert.AreEqual(true, figure.Move("C2"));
         }
 
