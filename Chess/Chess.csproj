@@ -41,6 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChessFigure.cs" />
+    <Compile Include="ChessFigures\Bishop.cs" />
+    <Compile Include="ChessFigures\King.cs" />
+    <Compile Include="ChessFigures\Knight.cs" />
+    <Compile Include="ChessFigures\Pawn.cs" />
+    <Compile Include="ChessFigures\Queen.cs" />
+    <Compile Include="ChessFigures\Rook.cs" />
     <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>
